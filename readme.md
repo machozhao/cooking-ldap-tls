@@ -1,0 +1,1 @@
+keytool -import -trustcacerts -alias ldapserver -keystore "/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/security/cacerts" -file /Users/zhaodonglu/Documents/Workspaces/workspace.blockchain/cooking-ldap-tls/src/test/resources/ldap.cert -storepass changeit
