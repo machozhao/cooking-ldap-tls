@@ -20,7 +20,7 @@ public class TLSConnectionTest {
     env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
 
     // Must use the name of the server that is found in its certificate
-    env.put(Context.PROVIDER_URL, "ldap://192.168.142.129:389");
+    env.put(Context.PROVIDER_URL, "ldap://localhost:389");
 
     // Create initial context
     LdapContext ctx = new InitialLdapContext(env, null);
@@ -40,7 +40,7 @@ public class TLSConnectionTest {
     env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
 
     // Must use the name of the server that is found in its certificate
-    env.put(Context.PROVIDER_URL, "ldaps://192.168.142.129:389");
+    env.put(Context.PROVIDER_URL, "ldaps://LDAP_Server:389");
 
     // Create initial context
     LdapContext ctx = new InitialLdapContext(env, null);
