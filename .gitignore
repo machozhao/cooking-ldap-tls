@@ -1,6 +1,7 @@
 .project
 .settings
 temp
+target
 **/*/.project
 **/*/.settings
 **/*/.classpath
